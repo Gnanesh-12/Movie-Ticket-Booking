@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Tickets</title>
+
+    <script src="script.js"></script>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="forgot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="head_content">
+           
+            <p> <b>Get Tickets </b></p>
+            <img src="logo.png" id="logo">
+        
+            <div class="links" style="margin-left: auto;">
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="sep" style="font-size: 15px;">Log In/Out </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="visible">
+        <h2 style="padding-top: 9%;"> Forgot Password ?</h2>
+        <input type="email" placeholder="Mail:" required>
+
+        <input type="button" value="Submit" class="submit-button" style="width: 100px;" onclick="display();">
+
+        
+    </div>
+
+    <div class="hidden" style="display: none;">
+        <P style=" padding: 20px; background-color: rgb(51, 91, 132); color: aliceblue; width: 230px; margin-left: 7%; height: 30px; ">Password Reset Link has been Sent your mail</p>
+    </div>
+
+    <input type="button"  class="submit-button" value="Go Back" onclick="window.location.href='login.html'">
+        
+    </div>

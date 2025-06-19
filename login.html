@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Tickets</title>
+
+    <script src="script.js"></script>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="head_content">
+           
+            <p> <b>Get Tickets </b></p>
+            <img src="logo.png" id="logo">
+        
+            <div class="links" style="margin-left: auto;">
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="sep" style="font-size: 15px;">Log In/Out </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Login</h2>
+        <hr>
+        
+        <input type="text" id="username" placeholder="Username ">
+        
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <br>
+        <a href="forgot.html" style="margin-left: 25%;"> Forgot password?</a>
+        
+        <button type="button" id="button" onclick="login()">Login</button>
+
+        <p style="margin-left: 80px;">Not A Member ? <a href="signup.html"> Signup</a></p>
+        <br>
+
+        
+            <p class="error1"><b>
+                Invalid Username or Password
+            </b></p>
+       
+        
+        
+    </div>
+</body>
+</html>

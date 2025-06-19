@@ -1,0 +1,200 @@
+
+html, body {
+    background-image: url(background\ 3.jpg);
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+html::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.header {
+    background-color: #3b3b3b;
+    width: 100vw;
+    box-shadow: 0px 5px 0px rgb(255, 255, 255);
+   
+   
+}
+.head_content {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    
+     p{
+        color: white;
+    
+        padding-left: 2%;
+        font-family: "Barriecito", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        
+     }
+
+     a{
+    
+        margin-right: 2vw;
+        color: white;
+        text-decoration: none;
+        font-family: cursive;
+
+        
+     }
+     a:hover{
+       background-color: bisque;
+       color: black;
+       padding: 10px 0px;
+       border-radius: 10px;
+       
+       
+     }
+
+     #logo {
+       width: 70px;
+       height: auto;
+       
+    }
+
+}
+.sep{
+ 
+ background-color: red;
+ padding: 8px;
+ 
+ 
+}
+
+.main img {
+    margin-top: 3px;
+    width: 100vw;
+    
+}
+
+.span{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-underline-offset: 0.3em;
+    font-size: 29px;
+    margin-left: 43vw; 
+    padding-left: 15px;
+    padding-right: 15px; 
+   
+}
+
+.main2{
+    display: flex;
+}
+
+.main2 img{
+    width: 50vw;
+}
+
+.box{
+    width: 500px;
+    color: #ffffff;
+    background-color: #8f948f;
+   margin-top: 1%;
+   margin-left: auto;
+    margin-right: 5vw;
+    border: 4px solid grey;
+    margin-bottom: 10px;
+   
+}
+
+.box p{
+    
+    text-align: center;
+    
+    
+    font-family: "Lobster", sans-serif;
+       
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 2.2vw;
+}
+.copyright {
+   background-color: #8f948f;
+    width: 100vw;
+  
+    
+    color: white;
+   text-align: center;
+   height: 120px;
+   padding-top: 1vw;
+   clear: both;
+}
+
+.find {
+   
+    width: 30vw;
+    margin-left: 7vw;
+    
+    
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    justify-content: space-around;
+    
+}
+
+.find img {
+     
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.lol{
+ 
+  background-color: #3d4b56;
+   
+}
+
+.center-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.center-button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 2em;
+    color: gray;
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: gold;
+}
+
+
+.get-tickets {
+    transition: transform 0.3s ease;
+  }
+  
+  .get-tickets:hover {
+    transform: translateY(-10px);
+  }
+

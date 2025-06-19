@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Tickets</title>
+
+    <script src="script.js"></script>
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="head_content">
+           
+            <p> <b>Get Tickets </b></p>
+            <img src="logo.png" id="logo">
+        
+            <div class="links" style="margin-left: auto;">
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="sep" style="font-size: 15px;">Log In/Out </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2> Create your Account </h2>
+
+        <input type="text" style="margin-top: 13%; margin-left: 20%; width: 220px; " placeholder="mai-id" id="use">
+        <input type="password" style="margin-top: 13%; margin-left: 20%; width: 220px;" placeholder="Enter Password" id="pass1">
+        <input type="password" style="margin-top: 13%; margin-left: 20%; width: 220px;" placeholder="Re-Enter Your  Password" id="pass2">
+        <br>
+        <br>
+        <br>
+
+        <input type="button" onclick="signup()" style="margin-left: 20%; width: 100px;" value="Sign-up" class="signup">
+
+        <div class="error">
+            <p><b> Error ! Both The Passwords Should Match !!!</b></p>
+        </div>
+        
+    </div>
+</body>
+</html>
